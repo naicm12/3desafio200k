@@ -6,7 +6,7 @@ img = Image.open('01.png')
 st.image(img)
 st.markdown("### 3º Desafio 200k - Porto Velho/Humaitá")
 
-with ((form_informativo.form("Informativo"))):
+with st.form("Informativo"):
     st.markdown("##### Informativo do Desafio")
     st.write("📅 Dia 05 de Julho de 2024")
     st.write("🏃🏻 Largada às 16hs 🕗")
@@ -27,7 +27,7 @@ with ((form_informativo.form("Informativo"))):
     st.write("  Término: 20 de maio 2024 ou até o limite das vagas")
     st.form_submit_button("",disabled=True)
 
-with ((form_informativo.form("Regulamento"))):
+with st.form("Regulamento"):
     st.markdown("##### Regulamento")
     with open('Regulamento.txt', 'r', encoding='UTF-8') as f:
         lines = f.readlines()
