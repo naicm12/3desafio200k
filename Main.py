@@ -3,7 +3,7 @@ import re
 from datetime import date
 
 from PIL import Image
-img = Image.open('001.png')
+img = Image.open('01.png')
 st.image(img)
 st.markdown("### 3º Desafio 200k - Porto Velho/Humaitá")
 
