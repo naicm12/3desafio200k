@@ -33,7 +33,7 @@ with st.form("Regulamento"):
         lines = f.readlines()
         for line in lines:
             st.caption(line)
-    st.link_button(label="Clique aqui para realizar sua inscrição",url="http://191.217.246.233:8225/",type="primary")
+    st.link_button(label="Clique aqui para realizar sua inscrição",url="http://191.217.246.233:8501/",type="primary")
     st.form_submit_button("",disabled=True)
 
 from PIL import Image
