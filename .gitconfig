@@ -1,9 +1,0 @@
-[user]
-	name = Elienai Carvalho Monteiro
-	email    = naicm12@gmail.com
-	username = naicm
-[core]
-	editor = vim
-	whitespace = cr-at-eol
-[credential]
-	helper = cache --timeout=21600
