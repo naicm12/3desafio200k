@@ -24,8 +24,7 @@ st.write("Início: 17 de março de 2024")
 st.write("Término: 20 de maio 2024 ou até o limite das vagas")
 st.page_link("https://www.4shared.com/web/preview/pdf/fFCk8nZrjq", label="{$} Clique aqui para ver o Regulamento {$}")
 st.caption("")
-st.page_link("http://191.217.246.233:8501/", label="Clique aqui para realizar sua inscrição")
-
+st.link_button(label="Clique aqui para realizar sua inscrição",url="http://191.217.246.233:8501/",type="primary")
 
 
 from PIL import Image
