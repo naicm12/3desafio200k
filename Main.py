@@ -1,6 +1,7 @@
 import streamlit as st
 from datetime import date
 
+st.markdown("### 🔒Inscrições Encerradas")
 from PIL import Image
 img = Image.open('01.png')
 st.image(img)
