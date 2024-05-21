@@ -5,6 +5,8 @@ from PIL import Image
 img = Image.open('01.png')
 st.image(img)
 st.markdown("### 3º Desafio 200k - Porto Velho/Humaitá")
+st.write("")
+st.markdown("### 🔒Inscrições Encerradas")
 
 with st.form("Informativo"):
     st.markdown("##### Informativo do Desafio")
@@ -13,7 +15,7 @@ with st.form("Informativo"):
     st.write("📍 Saída: Início do Espaço Alternativo - Av. Jorge Teixeira (Praia)")
     st.caption("")
     st.write("💲 Valor da Inscrição: 500,00 reais Solo e 400,00 reais se for em equipe (valor da inscrição é individual)")
-    st.link_button(label="Clique aqui para realizar sua inscrição",url="https://desafio200k-inscricao-1727ec5a1e6a.herokuapp.com/",type="primary")
+    #st.link_button(label="Clique aqui para realizar sua inscrição",url="https://desafio200k-inscricao-1727ec5a1e6a.herokuapp.com/",type="primary")
     #st.link_button(label="Clique aqui para realizar sua inscrição",url="http://191.217.246.233:8501/",type="primary")
     st.write(" Forma de Pagamento: ")
     st.write("  Pix kelioesteves@hotmail.com - Kélio Esteves Xavier - Mercado pago.")
@@ -34,7 +36,7 @@ with st.form("Regulamento"):
         lines = f.readlines()
         for line in lines:
             st.write(line)
-    st.link_button(label="Clique aqui para realizar sua inscrição",url="https://desafio200k-inscricao-1727ec5a1e6a.herokuapp.com/",type="primary")
+    #st.link_button(label="Clique aqui para realizar sua inscrição",url="https://desafio200k-inscricao-1727ec5a1e6a.herokuapp.com/",type="primary")
     #st.link_button(label="Clique aqui para realizar sua inscrição",url="http://191.217.246.233:8501/",type="primary")
     st.form_submit_button("",disabled=True)
 
